@@ -1,0 +1,38 @@
+{
+  "name": "homebridge-ircontroll",
+  "version": "0.1.0",
+  "author": "BardinPetr",
+  "license": "MIT",
+  "description": "Homebridge plugin for controll TV/AC by Arduino with IR transmitter from HomeKit",
+
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BardinPetr/homebridge-IRControll.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BardinPetr/homebridge-IRControll/issues"
+  },
+  "homepage": "https://github.com/BardinPetr/homebridge-IRControll#readme",
+
+  "keywords": [
+    "homebridge-plugin",
+    "arduino",
+    "ir"
+  ],
+
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "request": "^2.65.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.0"
+  }
+}
